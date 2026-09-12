@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /poisk/
+Sitemap: https://kodeksdeneg.ru/sitemap.xml
