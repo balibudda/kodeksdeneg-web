@@ -74,10 +74,24 @@ h2 { font-size: 19px; margin: 24px 0 10px; }
 .hero-deco { position: absolute; top: 0; right: 0; color: var(--accent); pointer-events: none; }
 .hero-content { position: relative; z-index: 1; }
 .hero-lead { margin: 8px 0 10px; }
+.freshness-badge { display: inline-block; margin: 0 0 10px; padding: 5px 12px; border-radius: 999px; background: color-mix(in srgb, var(--accent) 14%, var(--surface)); color: var(--accent); font-size: 13.5px; font-weight: 700; border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent); }
 .hero-lead2 { font-size: 15px; color: var(--ink-soft); margin-bottom: 14px; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 10px; }
 .btn { display: inline-block; text-decoration: none; font-weight: 700; padding: 11px 16px; border-radius: 999px; background: var(--surface-2); color: var(--ink); border: 1px solid var(--line); cursor: pointer; font: inherit; }
 .btn-fill { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.btn-ghost { background: transparent; }
+
+/* Новости */
+.news-list { list-style: none; margin: 18px 0 0; padding: 0; display: flex; flex-direction: column; gap: 16px; }
+.news-item { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.news-item a { display: block; padding: 16px 18px; text-decoration: none; color: var(--ink); }
+.news-item h2 { margin: 2px 0 8px; font-size: 18px; }
+.news-item .news-open { display: inline-block; margin-top: 6px; font-weight: 700; color: var(--accent); font-size: 14px; }
+.news-date { margin: 0; font-size: 13px; color: var(--ink-soft); font-weight: 700; }
+.news-source, .news-related { font-size: 14px; color: var(--ink-soft); margin: 8px 0 0; }
+.news-empty { color: var(--ink-soft); margin-top: 18px; }
+.news-subscribe { margin: 16px 0; color: var(--ink-soft); font-size: 14.5px; }
+.news-subscribe .btn { margin-right: 8px; vertical-align: middle; }
 .btn-ghost { background: transparent; }
 
 /* блок с цифрами масштаба проекта */
