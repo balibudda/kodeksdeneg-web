@@ -19,21 +19,24 @@
 <meta name="theme-color" content="#3a4f6b">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="Кодекс денег — новости" href="/novosti/rss.xml">
-<link rel="stylesheet" href="/assets/styles.css?v=1789312258172">
+<link rel="stylesheet" href="/assets/styles.css?v=1789315626008">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Включили радио в парикмахерской или кафе — это может стоить сотен тысяч рублей","description":"Публичное воспроизведение музыки без договора с РАО и ВОИС — не мелкая формальность, а реальные иски на десятки тысяч рублей за трек. В 2025 году 85% ответчиков — именно малый бизнес.","url":"https://kodeksdeneg.ru/rabota-i-dohod/muzyka-v-zavedenii-shtraf-rao-vois/","inLanguage":"ru","dateModified":"2026-09-12","datePublished":"2026-09-12","keywords":"штраф за музыку в салоне без лицензии, рао воис штраф ип малый бизнес, как легально включать музыку в заведении","author":{"@type":"Organization","name":"Кодекс денег","url":"https://kodeksdeneg.ru"},"publisher":{"@type":"Organization","name":"Кодекс денег","url":"https://kodeksdeneg.ru"},"about":"Работа и доход","isPartOf":{"@type":"WebSite","name":"Кодекс денег","url":"https://kodeksdeneg.ru"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Главная","item":"https://kodeksdeneg.ru/"},{"@type":"ListItem","position":2,"name":"Работа и доход","item":"https://kodeksdeneg.ru/rabota-i-dohod/"},{"@type":"ListItem","position":3,"name":"Включили радио в парикмахерской или кафе — это может стоить сотен тысяч рублей","item":"https://kodeksdeneg.ru/rabota-i-dohod/muzyka-v-zavedenii-shtraf-rao-vois/"}]}</script>
-<!-- Yandex.Metrika counter -->
+<!-- Yandex.Metrika counter (загружается только после согласия на cookies) -->
 <script type="text/javascript">
+  window.kdLoadMetrika = function () {
+    if (window.__kdMetrikaLoaded) return;
+    window.__kdMetrikaLoaded = true;
     (function(m,e,t,r,i,k,a){
         m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
         m[i].l=1*new Date();
         for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
         k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
     })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=112520018', 'ym');
-
     ym(112520018, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+  };
+  try { if (localStorage.getItem('kd_cookie_consent') === '1') window.kdLoadMetrika(); } catch (e) {}
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/112520018" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 </head>
 <body class="page-topic" style="--sec:#4f6b3a">
@@ -55,6 +58,7 @@
           <li><a href="/novosti/">📰 Новости</a></li>
           <li><a href="/kontakty/">📞 Все контакты</a></li>
           <li><a href="/o-proekte/">О проекте</a></li>
+          <li><a href="/politika/">Политика конфиденциальности</a></li>
         </ul>
       </nav>
     </details>
@@ -86,9 +90,37 @@
     <a href="/kontakty/">Все контакты</a>
     <a href="/o-proekte/">О проекте</a>
   </nav>
-  <p class="foot-disclaimer">Справочно-просветительские материалы, не заменяют консультацию юриста. Проект бесплатный, без рекламы платных услуг и без продажи «банкротства под ключ».</p>
-  <p class="foot-tg">Контакты — здесь: <a href="https://t.me/Reborn_Lab" target="_blank" rel="noopener noreferrer">✈️ t.me/Reborn_Lab</a></p>
+  <p class="foot-mission">Наша миссия — чтобы человек с долгами знал точно, что говорит закон, что реально грозит, а что — пугалка коллектора, и не платил дважды: живыми деньгами и страхом от незнания.</p>
+  <p class="foot-disclaimer">Справочно-просветительские материалы, не заменяют консультацию юриста. Предоставляются «как есть», без гарантий. Проект бесплатный, без рекламы платных услуг и без продажи «банкротства под ключ». <a href="/politika/">Политика обработки персональных данных</a>.</p>
+  <p class="foot-tg">Бот с поиском по темам — <a href="https://t.me/kodeksdeneg_bot" target="_blank" rel="noopener noreferrer">✈️ t.me/kodeksdeneg_bot</a> · Контакты и обратная связь — <a href="https://t.me/Reborn_Lab" target="_blank" rel="noopener noreferrer">✈️ t.me/Reborn_Lab</a></p>
 </footer>
-<script src="/assets/nav.js?v=1789312258172" defer></script>
+<div class="cookie-bar" id="cookie-bar" hidden>
+  <p>Мы хотим подключить cookies и сервис Яндекс.Метрика, чтобы видеть, как люди пользуются справочником, и делать его удобнее. <b>«Принять»</b> — разрешить аналитику; <b>«Отклонить»</b> — не включать её, сайт будет работать так же. Подробнее — в <a href="/politika/">Политике обработки персональных данных</a>.</p>
+  <div class="cookie-actions">
+    <button type="button" id="cookie-accept" class="btn">Принять</button>
+    <button type="button" id="cookie-decline" class="btn btn-ghost">Отклонить</button>
+  </div>
+</div>
+<script>
+(function () {
+  var KEY = 'kd_cookie_consent';
+  var stored = null;
+  try { stored = localStorage.getItem(KEY); } catch (e) {}
+  var bar = document.getElementById('cookie-bar');
+  if (!bar) return;
+  if (stored === '1' || stored === '0') { bar.hidden = true; return; }
+  bar.hidden = false;
+  function decide(v) {
+    try { localStorage.setItem(KEY, v); } catch (e) {}
+    bar.hidden = true;
+    if (v === '1' && typeof window.kdLoadMetrika === 'function') window.kdLoadMetrika();
+  }
+  var a = document.getElementById('cookie-accept');
+  var d = document.getElementById('cookie-decline');
+  if (a) a.addEventListener('click', function () { decide('1'); });
+  if (d) d.addEventListener('click', function () { decide('0'); });
+})();
+</script>
+<script src="/assets/nav.js?v=1789315626008" defer></script>
 </body>
 </html>

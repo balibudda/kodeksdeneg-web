@@ -62,9 +62,22 @@ main { max-width: 720px; margin: 0 auto; padding: 20px 16px 48px; }
 .site-foot { max-width: 720px; margin: 0 auto; padding: 24px 16px 40px; border-top: 1px solid var(--line); }
 .foot-nav { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 14px; }
 .foot-nav a { font-weight: 600; font-size: 15px; }
+.foot-mission { color: var(--accent); font-weight: 600; font-size: 14px; line-height: 1.5; margin: 0 0 14px; }
 .foot-disclaimer { color: var(--ink-soft); font-size: 13px; line-height: 1.5; }
 .foot-tg { margin-top: 10px; font-size: 13.5px; }
 .foot-tg a { font-weight: 700; }
+
+.cookie-bar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
+  background: var(--surface); border-top: 1px solid var(--line);
+  box-shadow: 0 -4px 18px rgba(0, 0, 0, 0.12);
+  padding: 14px 16px calc(14px + env(safe-area-inset-bottom));
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px;
+  justify-content: center;
+}
+.cookie-bar p { margin: 0; font-size: 13.5px; color: var(--ink-soft); max-width: 680px; flex: 1 1 320px; }
+.cookie-bar .cookie-actions { display: flex; gap: 8px; flex: 0 0 auto; }
+.cookie-bar .btn { padding: 9px 16px; font-size: 14px; }
 
 h1 { font-size: 25px; line-height: 1.22; margin: 6px 0 14px; }
 h2 { font-size: 19px; margin: 24px 0 10px; }
