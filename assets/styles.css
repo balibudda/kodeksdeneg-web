@@ -63,6 +63,8 @@ main { max-width: 720px; margin: 0 auto; padding: 20px 16px 48px; }
 .foot-nav { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 14px; }
 .foot-nav a { font-weight: 600; font-size: 15px; }
 .foot-disclaimer { color: var(--ink-soft); font-size: 13px; line-height: 1.5; }
+.foot-tg { margin-top: 10px; font-size: 13.5px; }
+.foot-tg a { font-weight: 700; }
 
 h1 { font-size: 25px; line-height: 1.22; margin: 6px 0 14px; }
 h2 { font-size: 19px; margin: 24px 0 10px; }
