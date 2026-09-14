@@ -66,6 +66,18 @@ main { max-width: 720px; margin: 0 auto; padding: 20px 16px 48px; }
 .foot-disclaimer { color: var(--ink-soft); font-size: 13px; line-height: 1.5; }
 .foot-tg { margin-top: 10px; font-size: 13.5px; }
 .foot-tg a { font-weight: 700; }
+.foot-sibling { margin-top: 10px; font-size: 13px; color: var(--ink-soft); }
+
+.sovetnik-form { display: flex; flex-direction: column; gap: 14px; max-width: 520px; margin-top: 18px; }
+.sovetnik-form label { display: flex; flex-direction: column; gap: 6px; font-weight: 600; font-size: 14px; }
+.sovetnik-form input, .sovetnik-form select, .sovetnik-form textarea {
+  font: inherit; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line);
+  background: var(--surface); color: var(--ink); font-weight: 400;
+}
+.sovetnik-form textarea { resize: vertical; }
+.sovetnik-form .hp-field { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.sovetnik-form button { align-self: flex-start; }
+.sovetnik-status { margin: 0; font-size: 14px; color: var(--accent); min-height: 1.2em; }
 
 .cookie-bar {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
