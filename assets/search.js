@@ -211,4 +211,14 @@
     input.value = pre
     run()
   }
+
+  // чипы-подсказки с готовыми примерами запроса (data-q="...") — на страницах
+  // с быстрым поиском (см. build.mjs), клик сразу подставляет текст и ищет.
+  document.addEventListener('click', function (e) {
+    var chip = e.target.closest('[data-q]')
+    if (!chip) return
+    input.value = chip.getAttribute('data-q')
+    run()
+    input.scrollIntoView({ behavior: 'smooth', block: 'center' })
+  })
 })()
